@@ -1,0 +1,2 @@
+status,p,n_zones,n_candidates,objective_value_km,total_unweighted_distance_km,average_assignment_distance_meters,distance_method,solved_at_utc
+optimal,5,77,77,3501234.323,507.355,6589.02,manhattan,2026-10-11T13:56:32+00:00

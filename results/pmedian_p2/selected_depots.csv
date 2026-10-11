@@ -1,0 +1,3 @@
+depot_ca,depot_name,latitude,longitude,zones_served,total_weight_served,total_distance_served_meters,weighted_distance_served
+40,WASHINGTON PARK,41.7933497,-87.6196352,45,262981.0,414625.3,1981532981.0
+6,LAKE VIEW,41.9435138,-87.65749768,32,788587.0,309694.8,3966179897.6

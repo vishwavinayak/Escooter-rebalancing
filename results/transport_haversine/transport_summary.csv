@@ -1,0 +1,2 @@
+status,objective_value_meters,objective_value_km,total_supply,total_demand,surplus_zone_count,deficit_zone_count,total_units_transferred,supply_utilisation_pct,demand_satisfaction_pct,rounded_supply_feasible,rounded_demand_feasible,non_zero_routes,distance_method,solved_at_utc
+optimal,24793418.09,24793.418,6885,6885,46,31,6885,100.0,100.0,True,True,76,haversine,2026-10-11T07:04:48+00:00

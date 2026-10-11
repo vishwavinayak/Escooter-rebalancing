@@ -1,0 +1,15 @@
+scenario_id,label,model,distance_method,p,demand_scale,status,runtime_s,pm_obj_km_wt,pm_avg_dist_m,pm_unweighted_km,pm_depots,tr_obj_km,tr_units,tr_supply_util_pct,tr_demand_sat_pct,tr_routes,tr_supply_feasible,tr_demand_feasible,error_message,solved_at_utc
+pmedian_p1_manhattan,p=1 (manhattan),pmedian,manhattan,1.0,1.0,optimal,0.529,9034598.192,15599.03,1201.126,WEST TOWN,,,,,,,,,2026-10-11T15:03:22+00:00
+pmedian_p2_manhattan,p=2 (manhattan),pmedian,manhattan,2.0,1.0,optimal,0.236,5947712.879,9406.75,724.32,WASHINGTON PARK; LAKE VIEW,,,,,,,,,2026-10-11T15:03:22+00:00
+pmedian_p3_manhattan,p=3 (manhattan),pmedian,manhattan,3.0,1.0,optimal,0.229,4474753.559,8632.8,664.726,WASHINGTON PARK; LAKE VIEW; WEST TOWN,,,,,,,,,2026-10-11T15:03:22+00:00
+pmedian_p4_manhattan,p=4 (manhattan),pmedian,manhattan,4.0,1.0,optimal,0.356,3967280.185,7780.08,599.066,WASHINGTON PARK; HERMOSA; LAKE VIEW; WEST TOWN,,,,,,,,,2026-10-11T15:03:23+00:00
+pmedian_p5_manhattan,p=5 (manhattan),pmedian,manhattan,5.0,1.0,optimal,0.59,3501234.323,6589.02,507.355,WOODLAWN; HERMOSA; GAGE PARK; LAKE VIEW; WEST TOWN,,,,,,,,,2026-10-11T15:03:23+00:00
+pmedian_p1_haversine,p=1 (haversine),pmedian,haversine,1.0,1.0,optimal,0.426,7288282.132,12504.81,962.87,WEST TOWN,,,,,,,,,2026-10-11T15:03:24+00:00
+pmedian_p2_haversine,p=2 (haversine),pmedian,haversine,2.0,1.0,optimal,0.222,4764081.89,7303.46,562.366,ENGLEWOOD; LAKE VIEW,,,,,,,,,2026-10-11T15:03:24+00:00
+pmedian_p3_haversine,p=3 (haversine),pmedian,haversine,3.0,1.0,optimal,0.218,3600996.585,6703.22,516.148,ENGLEWOOD; LAKE VIEW; WEST TOWN,,,,,,,,,2026-10-11T15:03:24+00:00
+pmedian_p4_haversine,p=4 (haversine),pmedian,haversine,4.0,1.0,optimal,0.224,3206382.877,6006.42,462.494,ENGLEWOOD; HERMOSA; WEST TOWN; LAKE VIEW,,,,,,,,,2026-10-11T15:03:24+00:00
+pmedian_p5_haversine,p=5 (haversine),pmedian,haversine,5.0,1.0,optimal,0.265,2824121.925,5962.25,459.093,ENGLEWOOD; HERMOSA; WEST TOWN; LAKE VIEW; LINCOLN PARK,,,,,,,,,2026-10-11T15:03:25+00:00
+transport_baseline_manhattan,baseline_manhattan,transport,manhattan,,1.0,optimal,0.008,,,,,31115.644,6885.0,100.0,100.0,76.0,True,True,,2026-10-11T15:03:25+00:00
+transport_baseline_haversine,baseline_haversine,transport,haversine,,1.0,optimal,0.007,,,,,24793.418,6885.0,100.0,100.0,76.0,True,True,,2026-10-11T15:03:25+00:00
+transport_offpeak_manhattan,offpeak_manhattan,transport,manhattan,,0.5,optimal,0.008,,,,,15494.18,3441.0,99.88,100.0,73.0,True,True,,2026-10-11T15:03:25+00:00
+transport_offpeak_haversine,offpeak_haversine,transport,haversine,,0.5,optimal,0.008,,,,,12347.965,3441.0,99.88,100.0,73.0,True,True,,2026-10-11T15:03:25+00:00

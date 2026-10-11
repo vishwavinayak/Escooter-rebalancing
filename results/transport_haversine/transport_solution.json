@@ -1,0 +1,779 @@
+{
+  "status": "optimal",
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective_value_meters": 24793418.09,
+  "objective_value_km": 24793.418,
+  "total_supply": 6885,
+  "total_demand": 6885,
+  "surplus_zone_count": 46,
+  "deficit_zone_count": 31,
+  "allocations": [
+    {
+      "surplus_ca": 22,
+      "surplus_name": "LOGAN SQUARE",
+      "deficit_ca": 7,
+      "deficit_name": "LINCOLN PARK",
+      "units": 425,
+      "distance_meters": 4854.1,
+      "cost_unit_meters": 4854.1,
+      "total_cost_meters": 2062985.3
+    },
+    {
+      "surplus_ca": 21,
+      "surplus_name": "AVONDALE",
+      "deficit_ca": 7,
+      "deficit_name": "LINCOLN PARK",
+      "units": 333,
+      "distance_meters": 5723.2,
+      "cost_unit_meters": 5723.2,
+      "total_cost_meters": 1905838.4
+    },
+    {
+      "surplus_ca": 2,
+      "surplus_name": "WEST RIDGE",
+      "deficit_ca": 3,
+      "deficit_name": "UPTOWN",
+      "units": 319,
+      "distance_meters": 5400.4,
+      "cost_unit_meters": 5400.4,
+      "total_cost_meters": 1722741.0
+    },
+    {
+      "surplus_ca": 8,
+      "surplus_name": "NEAR NORTH SIDE",
+      "deficit_ca": 7,
+      "deficit_name": "LINCOLN PARK",
+      "units": 563,
+      "distance_meters": 2678.8,
+      "cost_unit_meters": 2678.8,
+      "total_cost_meters": 1508178.2
+    },
+    {
+      "surplus_ca": 5,
+      "surplus_name": "NORTH CENTER",
+      "deficit_ca": 7,
+      "deficit_name": "LINCOLN PARK",
+      "units": 312,
+      "distance_meters": 4356.8,
+      "cost_unit_meters": 4356.8,
+      "total_cost_meters": 1359312.6
+    },
+    {
+      "surplus_ca": 4,
+      "surplus_name": "LINCOLN SQUARE",
+      "deficit_ca": 6,
+      "deficit_name": "LAKE VIEW",
+      "units": 293,
+      "distance_meters": 3988.6,
+      "cost_unit_meters": 3988.6,
+      "total_cost_meters": 1168648.4
+    },
+    {
+      "surplus_ca": 14,
+      "surplus_name": "ALBANY PARK",
+      "deficit_ca": 6,
+      "deficit_name": "LAKE VIEW",
+      "units": 168,
+      "distance_meters": 6017.8,
+      "cost_unit_meters": 6017.8,
+      "total_cost_meters": 1010990.1
+    },
+    {
+      "surplus_ca": 23,
+      "surplus_name": "HUMBOLDT PARK",
+      "deficit_ca": 24,
+      "deficit_name": "WEST TOWN",
+      "units": 150,
+      "distance_meters": 4005.3,
+      "cost_unit_meters": 4005.3,
+      "total_cost_meters": 600797.8
+    },
+    {
+      "surplus_ca": 13,
+      "surplus_name": "NORTH PARK",
+      "deficit_ca": 6,
+      "deficit_name": "LAKE VIEW",
+      "units": 86,
+      "distance_meters": 6979.7,
+      "cost_unit_meters": 6979.7,
+      "total_cost_meters": 600251.0
+    },
+    {
+      "surplus_ca": 39,
+      "surplus_name": "KENWOOD",
+      "deficit_ca": 41,
+      "deficit_name": "HYDE PARK",
+      "units": 322,
+      "distance_meters": 1756.5,
+      "cost_unit_meters": 1756.5,
+      "total_cost_meters": 565607.7
+    },
+    {
+      "surplus_ca": 17,
+      "surplus_name": "DUNNING",
+      "deficit_ca": 15,
+      "deficit_name": "PORTAGE PARK",
+      "units": 188,
+      "distance_meters": 2951.3,
+      "cost_unit_meters": 2951.3,
+      "total_cost_meters": 554840.3
+    },
+    {
+      "surplus_ca": 25,
+      "surplus_name": "AUSTIN",
+      "deficit_ca": 29,
+      "deficit_name": "NORTH LAWNDALE",
+      "units": 121,
+      "distance_meters": 4273.3,
+      "cost_unit_meters": 4273.3,
+      "total_cost_meters": 517072.1
+    },
+    {
+      "surplus_ca": 43,
+      "surplus_name": "SOUTH SHORE",
+      "deficit_ca": 44,
+      "deficit_name": "CHATHAM",
+      "units": 126,
+      "distance_meters": 3884.8,
+      "cost_unit_meters": 3884.8,
+      "total_cost_meters": 489489.9
+    },
+    {
+      "surplus_ca": 70,
+      "surplus_name": "ASHBURN",
+      "deficit_ca": 71,
+      "deficit_name": "AUBURN GRESHAM",
+      "units": 104,
+      "distance_meters": 4622.4,
+      "cost_unit_meters": 4622.4,
+      "total_cost_meters": 480731.3
+    },
+    {
+      "surplus_ca": 42,
+      "surplus_name": "WOODLAWN",
+      "deficit_ca": 41,
+      "deficit_name": "HYDE PARK",
+      "units": 221,
+      "distance_meters": 2128.7,
+      "cost_unit_meters": 2128.7,
+      "total_cost_meters": 470453.2
+    },
+    {
+      "surplus_ca": 66,
+      "surplus_name": "CHICAGO LAWN",
+      "deficit_ca": 65,
+      "deficit_name": "WEST LAWN",
+      "units": 184,
+      "distance_meters": 2437.2,
+      "cost_unit_meters": 2437.2,
+      "total_cost_meters": 448441.8
+    },
+    {
+      "surplus_ca": 23,
+      "surplus_name": "HUMBOLDT PARK",
+      "deficit_ca": 28,
+      "deficit_name": "NEAR WEST SIDE",
+      "units": 76,
+      "distance_meters": 5731.3,
+      "cost_unit_meters": 5731.3,
+      "total_cost_meters": 435579.7
+    },
+    {
+      "surplus_ca": 64,
+      "surplus_name": "CLEARING",
+      "deficit_ca": 62,
+      "deficit_name": "WEST ELSDON",
+      "units": 65,
+      "distance_meters": 5977.6,
+      "cost_unit_meters": 5977.6,
+      "total_cost_meters": 388545.5
+    },
+    {
+      "surplus_ca": 77,
+      "surplus_name": "EDGEWATER",
+      "deficit_ca": 3,
+      "deficit_name": "UPTOWN",
+      "units": 136,
+      "distance_meters": 2527.7,
+      "cost_unit_meters": 2527.7,
+      "total_cost_meters": 343767.4
+    },
+    {
+      "surplus_ca": 26,
+      "surplus_name": "WEST GARFIELD PARK",
+      "deficit_ca": 30,
+      "deficit_name": "SOUTH LAWNDALE",
+      "units": 73,
+      "distance_meters": 4637.1,
+      "cost_unit_meters": 4637.1,
+      "total_cost_meters": 338511.6
+    },
+    {
+      "surplus_ca": 54,
+      "surplus_name": "RIVERDALE",
+      "deficit_ca": 49,
+      "deficit_name": "ROSELAND",
+      "units": 53,
+      "distance_meters": 6335.0,
+      "cost_unit_meters": 6335.0,
+      "total_cost_meters": 335752.8
+    },
+    {
+      "surplus_ca": 69,
+      "surplus_name": "GREATER GRAND CROSSING",
+      "deficit_ca": 44,
+      "deficit_name": "CHATHAM",
+      "units": 123,
+      "distance_meters": 2701.6,
+      "cost_unit_meters": 2701.6,
+      "total_cost_meters": 332294.7
+    },
+    {
+      "surplus_ca": 10,
+      "surplus_name": "NORWOOD PARK",
+      "deficit_ca": 15,
+      "deficit_name": "PORTAGE PARK",
+      "units": 63,
+      "distance_meters": 4809.7,
+      "cost_unit_meters": 4809.7,
+      "total_cost_meters": 303013.7
+    },
+    {
+      "surplus_ca": 56,
+      "surplus_name": "GARFIELD RIDGE",
+      "deficit_ca": 57,
+      "deficit_name": "ARCHER HEIGHTS",
+      "units": 119,
+      "distance_meters": 2506.8,
+      "cost_unit_meters": 2506.8,
+      "total_cost_meters": 298309.7
+    },
+    {
+      "surplus_ca": 36,
+      "surplus_name": "OAKLAND",
+      "deficit_ca": 41,
+      "deficit_name": "HYDE PARK",
+      "units": 90,
+      "distance_meters": 3163.0,
+      "cost_unit_meters": 3163.0,
+      "total_cost_meters": 284674.3
+    },
+    {
+      "surplus_ca": 32,
+      "surplus_name": "LOOP",
+      "deficit_ca": 28,
+      "deficit_name": "NEAR WEST SIDE",
+      "units": 88,
+      "distance_meters": 3184.4,
+      "cost_unit_meters": 3184.4,
+      "total_cost_meters": 280225.1
+    },
+    {
+      "surplus_ca": 66,
+      "surplus_name": "CHICAGO LAWN",
+      "deficit_ca": 63,
+      "deficit_name": "GAGE PARK",
+      "units": 106,
+      "distance_meters": 2628.3,
+      "cost_unit_meters": 2628.3,
+      "total_cost_meters": 278601.0
+    },
+    {
+      "surplus_ca": 4,
+      "surplus_name": "LINCOLN SQUARE",
+      "deficit_ca": 3,
+      "deficit_name": "UPTOWN",
+      "units": 103,
+      "distance_meters": 2651.4,
+      "cost_unit_meters": 2651.4,
+      "total_cost_meters": 273098.9
+    },
+    {
+      "surplus_ca": 70,
+      "surplus_name": "ASHBURN",
+      "deficit_ca": 73,
+      "deficit_name": "WASHINGTON HEIGHTS",
+      "units": 40,
+      "distance_meters": 6306.3,
+      "cost_unit_meters": 6306.3,
+      "total_cost_meters": 252250.8
+    },
+    {
+      "surplus_ca": 5,
+      "surplus_name": "NORTH CENTER",
+      "deficit_ca": 6,
+      "deficit_name": "LAKE VIEW",
+      "units": 98,
+      "distance_meters": 2320.2,
+      "cost_unit_meters": 2320.2,
+      "total_cost_meters": 227383.1
+    },
+    {
+      "surplus_ca": 51,
+      "surplus_name": "SOUTH DEERING",
+      "deficit_ca": 48,
+      "deficit_name": "CALUMET HEIGHTS",
+      "units": 43,
+      "distance_meters": 4449.2,
+      "cost_unit_meters": 4449.2,
+      "total_cost_meters": 191315.9
+    },
+    {
+      "surplus_ca": 2,
+      "surplus_name": "WEST RIDGE",
+      "deficit_ca": 1,
+      "deficit_name": "ROGERS PARK",
+      "units": 91,
+      "distance_meters": 2101.8,
+      "cost_unit_meters": 2101.8,
+      "total_cost_meters": 191267.8
+    },
+    {
+      "surplus_ca": 67,
+      "surplus_name": "WEST ENGLEWOOD",
+      "deficit_ca": 68,
+      "deficit_name": "ENGLEWOOD",
+      "units": 84,
+      "distance_meters": 2259.8,
+      "cost_unit_meters": 2259.8,
+      "total_cost_meters": 189823.0
+    },
+    {
+      "surplus_ca": 11,
+      "surplus_name": "JEFFERSON PARK",
+      "deficit_ca": 15,
+      "deficit_name": "PORTAGE PARK",
+      "units": 64,
+      "distance_meters": 2911.1,
+      "cost_unit_meters": 2911.1,
+      "total_cost_meters": 186312.3
+    },
+    {
+      "surplus_ca": 33,
+      "surplus_name": "NEAR SOUTH SIDE",
+      "deficit_ca": 35,
+      "deficit_name": "DOUGLAS",
+      "units": 73,
+      "distance_meters": 2495.0,
+      "cost_unit_meters": 2495.0,
+      "total_cost_meters": 182135.8
+    },
+    {
+      "surplus_ca": 38,
+      "surplus_name": "GRAND BOULEVARD",
+      "deficit_ca": 40,
+      "deficit_name": "WASHINGTON PARK",
+      "units": 83,
+      "distance_meters": 2184.6,
+      "cost_unit_meters": 2184.6,
+      "total_cost_meters": 181323.4
+    },
+    {
+      "surplus_ca": 16,
+      "surplus_name": "IRVING PARK",
+      "deficit_ca": 19,
+      "deficit_name": "BELMONT CRAGIN",
+      "units": 54,
+      "distance_meters": 3333.9,
+      "cost_unit_meters": 3333.9,
+      "total_cost_meters": 180030.2
+    },
+    {
+      "surplus_ca": 17,
+      "surplus_name": "DUNNING",
+      "deficit_ca": 19,
+      "deficit_name": "BELMONT CRAGIN",
+      "units": 43,
+      "distance_meters": 4166.5,
+      "cost_unit_meters": 4166.5,
+      "total_cost_meters": 179158.2
+    },
+    {
+      "surplus_ca": 42,
+      "surplus_name": "WOODLAWN",
+      "deficit_ca": 44,
+      "deficit_name": "CHATHAM",
+      "units": 40,
+      "distance_meters": 4410.3,
+      "cost_unit_meters": 4410.3,
+      "total_cost_meters": 176412.4
+    },
+    {
+      "surplus_ca": 50,
+      "surplus_name": "PULLMAN",
+      "deficit_ca": 49,
+      "deficit_name": "ROSELAND",
+      "units": 89,
+      "distance_meters": 1982.1,
+      "cost_unit_meters": 1982.1,
+      "total_cost_meters": 176409.5
+    },
+    {
+      "surplus_ca": 61,
+      "surplus_name": "NEW CITY",
+      "deficit_ca": 59,
+      "deficit_name": "MCKINLEY PARK",
+      "units": 59,
+      "distance_meters": 2781.2,
+      "cost_unit_meters": 2781.2,
+      "total_cost_meters": 164088.7
+    },
+    {
+      "surplus_ca": 60,
+      "surplus_name": "BRIDGEPORT",
+      "deficit_ca": 59,
+      "deficit_name": "MCKINLEY PARK",
+      "units": 69,
+      "distance_meters": 2348.4,
+      "cost_unit_meters": 2348.4,
+      "total_cost_meters": 162040.3
+    },
+    {
+      "surplus_ca": 12,
+      "surplus_name": "FOREST GLEN",
+      "deficit_ca": 15,
+      "deficit_name": "PORTAGE PARK",
+      "units": 39,
+      "distance_meters": 4108.6,
+      "cost_unit_meters": 4108.6,
+      "total_cost_meters": 160233.7
+    },
+    {
+      "surplus_ca": 53,
+      "surplus_name": "WEST PULLMAN",
+      "deficit_ca": 49,
+      "deficit_name": "ROSELAND",
+      "units": 34,
+      "distance_meters": 4594.7,
+      "cost_unit_meters": 4594.7,
+      "total_cost_meters": 156221.0
+    },
+    {
+      "surplus_ca": 23,
+      "surplus_name": "HUMBOLDT PARK",
+      "deficit_ca": 20,
+      "deficit_name": "HERMOSA",
+      "units": 62,
+      "distance_meters": 2421.4,
+      "cost_unit_meters": 2421.4,
+      "total_cost_meters": 150126.0
+    },
+    {
+      "surplus_ca": 55,
+      "surplus_name": "HEGEWISCH",
+      "deficit_ca": 48,
+      "deficit_name": "CALUMET HEIGHTS",
+      "units": 19,
+      "distance_meters": 7753.3,
+      "cost_unit_meters": 7753.3,
+      "total_cost_meters": 147312.5
+    },
+    {
+      "surplus_ca": 25,
+      "surplus_name": "AUSTIN",
+      "deficit_ca": 57,
+      "deficit_name": "ARCHER HEIGHTS",
+      "units": 14,
+      "distance_meters": 9241.8,
+      "cost_unit_meters": 9241.8,
+      "total_cost_meters": 129384.8
+    },
+    {
+      "surplus_ca": 17,
+      "surplus_name": "DUNNING",
+      "deficit_ca": 18,
+      "deficit_name": "MONTCLARE",
+      "units": 62,
+      "distance_meters": 2080.8,
+      "cost_unit_meters": 2080.8,
+      "total_cost_meters": 129007.6
+    },
+    {
+      "surplus_ca": 37,
+      "surplus_name": "FULLER PARK",
+      "deficit_ca": 40,
+      "deficit_name": "WASHINGTON PARK",
+      "units": 52,
+      "distance_meters": 2471.7,
+      "cost_unit_meters": 2471.7,
+      "total_cost_meters": 128526.7
+    },
+    {
+      "surplus_ca": 70,
+      "surplus_name": "ASHBURN",
+      "deficit_ca": 65,
+      "deficit_name": "WEST LAWN",
+      "units": 40,
+      "distance_meters": 3180.6,
+      "cost_unit_meters": 3180.6,
+      "total_cost_meters": 127222.1
+    },
+    {
+      "surplus_ca": 43,
+      "surplus_name": "SOUTH SHORE",
+      "deficit_ca": 45,
+      "deficit_name": "AVALON PARK",
+      "units": 55,
+      "distance_meters": 2251.8,
+      "cost_unit_meters": 2251.8,
+      "total_cost_meters": 123848.4
+    },
+    {
+      "surplus_ca": 42,
+      "surplus_name": "WOODLAWN",
+      "deficit_ca": 40,
+      "deficit_name": "WASHINGTON PARK",
+      "units": 61,
+      "distance_meters": 1827.4,
+      "cost_unit_meters": 1827.4,
+      "total_cost_meters": 111471.6
+    },
+    {
+      "surplus_ca": 25,
+      "surplus_name": "AUSTIN",
+      "deficit_ca": 30,
+      "deficit_name": "SOUTH LAWNDALE",
+      "units": 16,
+      "distance_meters": 6762.5,
+      "cost_unit_meters": 6762.5,
+      "total_cost_meters": 108199.7
+    },
+    {
+      "surplus_ca": 25,
+      "surplus_name": "AUSTIN",
+      "deficit_ca": 20,
+      "deficit_name": "HERMOSA",
+      "units": 27,
+      "distance_meters": 3902.2,
+      "cost_unit_meters": 3902.2,
+      "total_cost_meters": 105359.6
+    },
+    {
+      "surplus_ca": 56,
+      "surplus_name": "GARFIELD RIDGE",
+      "deficit_ca": 62,
+      "deficit_name": "WEST ELSDON",
+      "units": 45,
+      "distance_meters": 2110.8,
+      "cost_unit_meters": 2110.8,
+      "total_cost_meters": 94984.4
+    },
+    {
+      "surplus_ca": 26,
+      "surplus_name": "WEST GARFIELD PARK",
+      "deficit_ca": 27,
+      "deficit_name": "EAST GARFIELD PARK",
+      "units": 38,
+      "distance_meters": 2381.1,
+      "cost_unit_meters": 2381.1,
+      "total_cost_meters": 90483.3
+    },
+    {
+      "surplus_ca": 47,
+      "surplus_name": "BURNSIDE",
+      "deficit_ca": 44,
+      "deficit_name": "CHATHAM",
+      "units": 50,
+      "distance_meters": 1765.5,
+      "cost_unit_meters": 1765.5,
+      "total_cost_meters": 88273.7
+    },
+    {
+      "surplus_ca": 31,
+      "surplus_name": "LOWER WEST SIDE",
+      "deficit_ca": 59,
+      "deficit_name": "MCKINLEY PARK",
+      "units": 43,
+      "distance_meters": 2018.3,
+      "cost_unit_meters": 2018.3,
+      "total_cost_meters": 86788.1
+    },
+    {
+      "surplus_ca": 33,
+      "surplus_name": "NEAR SOUTH SIDE",
+      "deficit_ca": 34,
+      "deficit_name": "ARMOUR SQUARE",
+      "units": 61,
+      "distance_meters": 1381.1,
+      "cost_unit_meters": 1381.1,
+      "total_cost_meters": 84246.9
+    },
+    {
+      "surplus_ca": 72,
+      "surplus_name": "BEVERLY",
+      "deficit_ca": 73,
+      "deficit_name": "WASHINGTON HEIGHTS",
+      "units": 40,
+      "distance_meters": 2019.3,
+      "cost_unit_meters": 2019.3,
+      "total_cost_meters": 80772.6
+    },
+    {
+      "surplus_ca": 53,
+      "surplus_name": "WEST PULLMAN",
+      "deficit_ca": 73,
+      "deficit_name": "WASHINGTON HEIGHTS",
+      "units": 15,
+      "distance_meters": 5119.0,
+      "cost_unit_meters": 5119.0,
+      "total_cost_meters": 76785.1
+    },
+    {
+      "surplus_ca": 76,
+      "surplus_name": "OHARE",
+      "deficit_ca": 18,
+      "deficit_name": "MONTCLARE",
+      "units": 7,
+      "distance_meters": 10737.7,
+      "cost_unit_meters": 10737.7,
+      "total_cost_meters": 75164.0
+    },
+    {
+      "surplus_ca": 9,
+      "surplus_name": "EDISON PARK",
+      "deficit_ca": 15,
+      "deficit_name": "PORTAGE PARK",
+      "units": 10,
+      "distance_meters": 7332.3,
+      "cost_unit_meters": 7332.3,
+      "total_cost_meters": 73323.4
+    },
+    {
+      "surplus_ca": 58,
+      "surplus_name": "BRIGHTON PARK",
+      "deficit_ca": 57,
+      "deficit_name": "ARCHER HEIGHTS",
+      "units": 30,
+      "distance_meters": 2426.1,
+      "cost_unit_meters": 2426.1,
+      "total_cost_meters": 72782.1
+    },
+    {
+      "surplus_ca": 14,
+      "surplus_name": "ALBANY PARK",
+      "deficit_ca": 15,
+      "deficit_name": "PORTAGE PARK",
+      "units": 20,
+      "distance_meters": 3517.4,
+      "cost_unit_meters": 3517.4,
+      "total_cost_meters": 70348.2
+    },
+    {
+      "surplus_ca": 25,
+      "surplus_name": "AUSTIN",
+      "deficit_ca": 19,
+      "deficit_name": "BELMONT CRAGIN",
+      "units": 15,
+      "distance_meters": 4044.4,
+      "cost_unit_meters": 4044.4,
+      "total_cost_meters": 60665.9
+    },
+    {
+      "surplus_ca": 74,
+      "surplus_name": "MOUNT GREENWOOD",
+      "deficit_ca": 75,
+      "deficit_name": "MORGAN PARK",
+      "units": 15,
+      "distance_meters": 2997.4,
+      "cost_unit_meters": 2997.4,
+      "total_cost_meters": 44960.3
+    },
+    {
+      "surplus_ca": 60,
+      "surplus_name": "BRIDGEPORT",
+      "deficit_ca": 35,
+      "deficit_name": "DOUGLAS",
+      "units": 18,
+      "distance_meters": 2346.4,
+      "cost_unit_meters": 2346.4,
+      "total_cost_meters": 42235.2
+    },
+    {
+      "surplus_ca": 43,
+      "surplus_name": "SOUTH SHORE",
+      "deficit_ca": 48,
+      "deficit_name": "CALUMET HEIGHTS",
+      "units": 11,
+      "distance_meters": 3588.1,
+      "cost_unit_meters": 3588.1,
+      "total_cost_meters": 39468.7
+    },
+    {
+      "surplus_ca": 61,
+      "surplus_name": "NEW CITY",
+      "deficit_ca": 68,
+      "deficit_name": "ENGLEWOOD",
+      "units": 11,
+      "distance_meters": 3429.0,
+      "cost_unit_meters": 3429.0,
+      "total_cost_meters": 37718.6
+    },
+    {
+      "surplus_ca": 46,
+      "surplus_name": "SOUTH CHICAGO",
+      "deficit_ca": 48,
+      "deficit_name": "CALUMET HEIGHTS",
+      "units": 15,
+      "distance_meters": 2325.7,
+      "cost_unit_meters": 2325.7,
+      "total_cost_meters": 34885.9
+    },
+    {
+      "surplus_ca": 67,
+      "surplus_name": "WEST ENGLEWOOD",
+      "deficit_ca": 71,
+      "deficit_name": "AUBURN GRESHAM",
+      "units": 8,
+      "distance_meters": 2928.1,
+      "cost_unit_meters": 2928.1,
+      "total_cost_meters": 23425.0
+    },
+    {
+      "surplus_ca": 53,
+      "surplus_name": "WEST PULLMAN",
+      "deficit_ca": 75,
+      "deficit_name": "MORGAN PARK",
+      "units": 5,
+      "distance_meters": 4014.1,
+      "cost_unit_meters": 4014.1,
+      "total_cost_meters": 20070.7
+    },
+    {
+      "surplus_ca": 32,
+      "surplus_name": "LOOP",
+      "deficit_ca": 34,
+      "deficit_name": "ARMOUR SQUARE",
+      "units": 4,
+      "distance_meters": 3096.0,
+      "cost_unit_meters": 3096.0,
+      "total_cost_meters": 12384.1
+    },
+    {
+      "surplus_ca": 36,
+      "surplus_name": "OAKLAND",
+      "deficit_ca": 35,
+      "deficit_name": "DOUGLAS",
+      "units": 2,
+      "distance_meters": 2105.2,
+      "cost_unit_meters": 2105.2,
+      "total_cost_meters": 4210.4
+    },
+    {
+      "surplus_ca": 55,
+      "surplus_name": "HEGEWISCH",
+      "deficit_ca": 52,
+      "deficit_name": "EAST SIDE",
+      "units": 1,
+      "distance_meters": 3822.9,
+      "cost_unit_meters": 3822.9,
+      "total_cost_meters": 3822.9
+    }
+  ],
+  "total_units_transferred": 6885,
+  "supply_utilisation_pct": 100.0,
+  "demand_satisfaction_pct": 100.0,
+  "rounded_supply_feasible": true,
+  "rounded_demand_feasible": true,
+  "distance_method": "haversine",
+  "solved_at_utc": "2026-10-11T07:04:48+00:00"
+}

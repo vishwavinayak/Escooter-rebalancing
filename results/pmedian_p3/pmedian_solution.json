@@ -1,0 +1,741 @@
+{
+  "status": "optimal",
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "p": 3,
+  "n_zones": 77,
+  "n_candidates": 77,
+  "objective_value": 4474753559.5,
+  "objective_value_km": 4474753.559,
+  "total_unweighted_distance_meters": 664725.72,
+  "total_unweighted_distance_km": 664.726,
+  "average_assignment_distance_meters": 8632.8,
+  "selected_depots": [
+    {
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "latitude": 41.7933497,
+      "longitude": -87.6196352,
+      "zones_served": 42,
+      "total_weight_served": 237414.0,
+      "total_distance_served_meters": 382273.4,
+      "weighted_distance_served": 1699347634.3
+    },
+    {
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "latitude": 41.9435138,
+      "longitude": -87.65749768,
+      "zones_served": 20,
+      "total_weight_served": 463411.0,
+      "total_distance_served_meters": 189935.9,
+      "weighted_distance_served": 1432755796.5
+    },
+    {
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "latitude": 41.90145875,
+      "longitude": -87.67556756,
+      "zones_served": 15,
+      "total_weight_served": 350743.0,
+      "total_distance_served_meters": 92516.4,
+      "weighted_distance_served": 1342650128.7
+    }
+  ],
+  "assignments": [
+    {
+      "zone_ca": 1,
+      "zone_name": "ROGERS PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 14743.0,
+      "distance_meters": 8357.2,
+      "weighted_distance": 123210239.4
+    },
+    {
+      "zone_ca": 2,
+      "zone_name": "WEST RIDGE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 4598.0,
+      "distance_meters": 9816.1,
+      "weighted_distance": 45134539.6
+    },
+    {
+      "zone_ca": 3,
+      "zone_name": "UPTOWN",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 44266.0,
+      "distance_meters": 2630.8,
+      "weighted_distance": 116456079.9
+    },
+    {
+      "zone_ca": 4,
+      "zone_name": "LINCOLN SQUARE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 15328.0,
+      "distance_meters": 5565.8,
+      "weighted_distance": 85312858.9
+    },
+    {
+      "zone_ca": 5,
+      "zone_name": "NORTH CENTER",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 16328.0,
+      "distance_meters": 2764.4,
+      "weighted_distance": 45136401.3
+    },
+    {
+      "zone_ca": 6,
+      "zone_name": "LAKE VIEW",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 160979.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 7,
+      "zone_name": "LINCOLN PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 132617.0,
+      "distance_meters": 3384.2,
+      "weighted_distance": 448797404.5
+    },
+    {
+      "zone_ca": 8,
+      "zone_name": "NEAR NORTH SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 47005.0,
+      "distance_meters": 3688.6,
+      "weighted_distance": 173382928.4
+    },
+    {
+      "zone_ca": 9,
+      "zone_name": "EDISON PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 64.0,
+      "distance_meters": 19849.2,
+      "weighted_distance": 1270346.9
+    },
+    {
+      "zone_ca": 10,
+      "zone_name": "NORWOOD PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 537.0,
+      "distance_meters": 16377.9,
+      "weighted_distance": 8794926.5
+    },
+    {
+      "zone_ca": 11,
+      "zone_name": "JEFFERSON PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 808.0,
+      "distance_meters": 13057.9,
+      "weighted_distance": 10550762.1
+    },
+    {
+      "zone_ca": 12,
+      "zone_name": "FOREST GLEN",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 337.0,
+      "distance_meters": 13015.9,
+      "weighted_distance": 4386374.3
+    },
+    {
+      "zone_ca": 13,
+      "zone_name": "NORTH PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 2004.0,
+      "distance_meters": 9856.9,
+      "weighted_distance": 19753289.6
+    },
+    {
+      "zone_ca": 14,
+      "zone_name": "ALBANY PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 4566.0,
+      "distance_meters": 8065.0,
+      "weighted_distance": 36824664.1
+    },
+    {
+      "zone_ca": 15,
+      "zone_name": "PORTAGE PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 13758.0,
+      "distance_meters": 9586.2,
+      "weighted_distance": 131887177.1
+    },
+    {
+      "zone_ca": 16,
+      "zone_name": "IRVING PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 9388.0,
+      "distance_meters": 7321.4,
+      "weighted_distance": 68732917.0
+    },
+    {
+      "zone_ca": 17,
+      "zone_name": "DUNNING",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 3871.0,
+      "distance_meters": 11939.7,
+      "weighted_distance": 46218495.0
+    },
+    {
+      "zone_ca": 18,
+      "zone_name": "MONTCLARE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 4269.0,
+      "distance_meters": 13196.0,
+      "weighted_distance": 56333750.3
+    },
+    {
+      "zone_ca": 19,
+      "zone_name": "BELMONT CRAGIN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 18234.0,
+      "distance_meters": 9334.1,
+      "weighted_distance": 170197765.5
+    },
+    {
+      "zone_ca": 20,
+      "zone_name": "HERMOSA",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5491.0,
+      "distance_meters": 7046.6,
+      "weighted_distance": 38693146.1
+    },
+    {
+      "zone_ca": 21,
+      "zone_name": "AVONDALE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 10659.0,
+      "distance_meters": 4873.1,
+      "weighted_distance": 51942433.5
+    },
+    {
+      "zone_ca": 22,
+      "zone_name": "LOGAN SQUARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 50251.0,
+      "distance_meters": 4759.8,
+      "weighted_distance": 239183072.3
+    },
+    {
+      "zone_ca": 23,
+      "zone_name": "HUMBOLDT PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 13978.0,
+      "distance_meters": 4074.4,
+      "weighted_distance": 56951667.9
+    },
+    {
+      "zone_ca": 24,
+      "zone_name": "WEST TOWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 103788.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 25,
+      "zone_name": "AUSTIN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 14461.0,
+      "distance_meters": 7988.2,
+      "weighted_distance": 115516785.9
+    },
+    {
+      "zone_ca": 26,
+      "zone_name": "WEST GARFIELD PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 3289.0,
+      "distance_meters": 6977.6,
+      "weighted_distance": 22949314.3
+    },
+    {
+      "zone_ca": 27,
+      "zone_name": "EAST GARFIELD PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5618.0,
+      "distance_meters": 4656.0,
+      "weighted_distance": 26157186.3
+    },
+    {
+      "zone_ca": 28,
+      "zone_name": "NEAR WEST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 54426.0,
+      "distance_meters": 3929.3,
+      "weighted_distance": 213858371.5
+    },
+    {
+      "zone_ca": 29,
+      "zone_name": "NORTH LAWNDALE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 8265.0,
+      "distance_meters": 9208.7,
+      "weighted_distance": 76109888.9
+    },
+    {
+      "zone_ca": 30,
+      "zone_name": "SOUTH LAWNDALE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9751.0,
+      "distance_meters": 10204.8,
+      "weighted_distance": 99507277.2
+    },
+    {
+      "zone_ca": 31,
+      "zone_name": "LOWER WEST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9095.0,
+      "distance_meters": 5936.2,
+      "weighted_distance": 53990175.3
+    },
+    {
+      "zone_ca": 32,
+      "zone_name": "LOOP",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 370.0,
+      "distance_meters": 6727.7,
+      "weighted_distance": 2489245.0
+    },
+    {
+      "zone_ca": 33,
+      "zone_name": "NEAR SOUTH SIDE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 9040.0,
+      "distance_meters": 7340.7,
+      "weighted_distance": 66359508.7
+    },
+    {
+      "zone_ca": 34,
+      "zone_name": "ARMOUR SQUARE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 4481.0,
+      "distance_meters": 7610.1,
+      "weighted_distance": 34100957.3
+    },
+    {
+      "zone_ca": 35,
+      "zone_name": "DOUGLAS",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 4241.0,
+      "distance_meters": 4689.9,
+      "weighted_distance": 19889812.4
+    },
+    {
+      "zone_ca": 36,
+      "zone_name": "OAKLAND",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 1206.0,
+      "distance_meters": 4634.4,
+      "weighted_distance": 5589107.7
+    },
+    {
+      "zone_ca": 37,
+      "zone_name": "FULLER PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 666.0,
+      "distance_meters": 3298.7,
+      "weighted_distance": 2196957.5
+    },
+    {
+      "zone_ca": 38,
+      "zone_name": "GRAND BOULEVARD",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 5827.0,
+      "distance_meters": 2327.9,
+      "weighted_distance": 13564817.9
+    },
+    {
+      "zone_ca": 39,
+      "zone_name": "KENWOOD",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 6122.0,
+      "distance_meters": 3624.1,
+      "weighted_distance": 22186470.6
+    },
+    {
+      "zone_ca": 40,
+      "zone_name": "WASHINGTON PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 5362.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 41,
+      "zone_name": "HYDE PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 30961.0,
+      "distance_meters": 2312.4,
+      "weighted_distance": 71595360.7
+    },
+    {
+      "zone_ca": 42,
+      "zone_name": "WOODLAWN",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 5840.0,
+      "distance_meters": 2494.0,
+      "weighted_distance": 14565141.8
+    },
+    {
+      "zone_ca": 43,
+      "zone_name": "SOUTH SHORE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 7760.0,
+      "distance_meters": 6990.7,
+      "weighted_distance": 54247668.5
+    },
+    {
+      "zone_ca": 44,
+      "zone_name": "CHATHAM",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 10671.0,
+      "distance_meters": 6626.8,
+      "weighted_distance": 70714750.0
+    },
+    {
+      "zone_ca": 45,
+      "zone_name": "AVALON PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2673.0,
+      "distance_meters": 7909.0,
+      "weighted_distance": 21140734.1
+    },
+    {
+      "zone_ca": 46,
+      "zone_name": "SOUTH CHICAGO",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 6139.0,
+      "distance_meters": 11523.7,
+      "weighted_distance": 70743758.7
+    },
+    {
+      "zone_ca": 47,
+      "zone_name": "BURNSIDE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 302.0,
+      "distance_meters": 9121.8,
+      "weighted_distance": 2754784.1
+    },
+    {
+      "zone_ca": 48,
+      "zone_name": "CALUMET HEIGHTS",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2978.0,
+      "distance_meters": 10668.9,
+      "weighted_distance": 31771943.7
+    },
+    {
+      "zone_ca": 49,
+      "zone_name": "ROSELAND",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 10292.0,
+      "distance_meters": 8864.3,
+      "weighted_distance": 91230946.4
+    },
+    {
+      "zone_ca": 50,
+      "zone_name": "PULLMAN",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2349.0,
+      "distance_meters": 10995.9,
+      "weighted_distance": 25829443.8
+    },
+    {
+      "zone_ca": 51,
+      "zone_name": "SOUTH DEERING",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2485.0,
+      "distance_meters": 15608.1,
+      "weighted_distance": 38786134.1
+    },
+    {
+      "zone_ca": 52,
+      "zone_name": "EAST SIDE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 1699.0,
+      "distance_meters": 17268.9,
+      "weighted_distance": 29339942.1
+    },
+    {
+      "zone_ca": 53,
+      "zone_name": "WEST PULLMAN",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 4716.0,
+      "distance_meters": 14191.8,
+      "weighted_distance": 66928478.7
+    },
+    {
+      "zone_ca": 54,
+      "zone_name": "RIVERDALE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 771.0,
+      "distance_meters": 16301.8,
+      "weighted_distance": 12568709.5
+    },
+    {
+      "zone_ca": 55,
+      "zone_name": "HEGEWISCH",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 838.0,
+      "distance_meters": 20993.7,
+      "weighted_distance": 17592727.2
+    },
+    {
+      "zone_ca": 56,
+      "zone_name": "GARFIELD RIDGE",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 1524.0,
+      "distance_meters": 10624.5,
+      "weighted_distance": 16191809.6
+    },
+    {
+      "zone_ca": 57,
+      "zone_name": "ARCHER HEIGHTS",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 4641.0,
+      "distance_meters": 10809.9,
+      "weighted_distance": 50168676.4
+    },
+    {
+      "zone_ca": 58,
+      "zone_name": "BRIGHTON PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 9642.0,
+      "distance_meters": 9229.0,
+      "weighted_distance": 88986420.4
+    },
+    {
+      "zone_ca": 59,
+      "zone_name": "MCKINLEY PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 6721.0,
+      "distance_meters": 7984.4,
+      "weighted_distance": 53663304.1
+    },
+    {
+      "zone_ca": 60,
+      "zone_name": "BRIDGEPORT",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 3817.0,
+      "distance_meters": 7162.6,
+      "weighted_distance": 27339666.2
+    },
+    {
+      "zone_ca": 61,
+      "zone_name": "NEW CITY",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 9900.0,
+      "distance_meters": 4853.0,
+      "weighted_distance": 48044272.3
+    },
+    {
+      "zone_ca": 62,
+      "zone_name": "WEST ELSDON",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 5758.0,
+      "distance_meters": 8418.5,
+      "weighted_distance": 48473741.2
+    },
+    {
+      "zone_ca": 63,
+      "zone_name": "GAGE PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 10610.0,
+      "distance_meters": 6733.1,
+      "weighted_distance": 71438050.6
+    },
+    {
+      "zone_ca": 64,
+      "zone_name": "CLEARING",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 635.0,
+      "distance_meters": 15737.1,
+      "weighted_distance": 9993051.7
+    },
+    {
+      "zone_ca": 65,
+      "zone_name": "WEST LAWN",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 7156.0,
+      "distance_meters": 10943.5,
+      "weighted_distance": 78311628.1
+    },
+    {
+      "zone_ca": 66,
+      "zone_name": "CHICAGO LAWN",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 10612.0,
+      "distance_meters": 8694.0,
+      "weighted_distance": 92260269.3
+    },
+    {
+      "zone_ca": 67,
+      "zone_name": "WEST ENGLEWOOD",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 7580.0,
+      "distance_meters": 6400.3,
+      "weighted_distance": 48513934.5
+    },
+    {
+      "zone_ca": 68,
+      "zone_name": "ENGLEWOOD",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 7065.0,
+      "distance_meters": 3351.5,
+      "weighted_distance": 23678014.3
+    },
+    {
+      "zone_ca": 69,
+      "zone_name": "GREATER GRAND CROSSING",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 6415.0,
+      "distance_meters": 3547.6,
+      "weighted_distance": 22757753.6
+    },
+    {
+      "zone_ca": 70,
+      "zone_name": "ASHBURN",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2532.0,
+      "distance_meters": 13029.3,
+      "weighted_distance": 32990088.0
+    },
+    {
+      "zone_ca": 71,
+      "zone_name": "AUBURN GRESHAM",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 9324.0,
+      "distance_meters": 8534.4,
+      "weighted_distance": 79575021.8
+    },
+    {
+      "zone_ca": 72,
+      "zone_name": "BEVERLY",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2796.0,
+      "distance_meters": 13466.2,
+      "weighted_distance": 37651573.1
+    },
+    {
+      "zone_ca": 73,
+      "zone_name": "WASHINGTON HEIGHTS",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 5133.0,
+      "distance_meters": 10857.4,
+      "weighted_distance": 55730927.5
+    },
+    {
+      "zone_ca": 74,
+      "zone_name": "MOUNT GREENWOOD",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2351.0,
+      "distance_meters": 18321.8,
+      "weighted_distance": 43074665.3
+    },
+    {
+      "zone_ca": 75,
+      "zone_name": "MORGAN PARK",
+      "depot_ca": 40,
+      "depot_name": "WASHINGTON PARK",
+      "weight": 2504.0,
+      "distance_meters": 16162.1,
+      "weighted_distance": 40469914.9
+    },
+    {
+      "zone_ca": 76,
+      "zone_name": "OHARE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 29.0,
+      "distance_meters": 24866.8,
+      "weighted_distance": 721138.6
+    },
+    {
+      "zone_ca": 77,
+      "zone_name": "EDGEWATER",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 24262.0,
+      "distance_meters": 5411.4,
+      "weighted_distance": 131291997.9
+    }
+  ],
+  "distance_method": "manhattan",
+  "solved_at_utc": "2026-10-11T13:56:31+00:00"
+}

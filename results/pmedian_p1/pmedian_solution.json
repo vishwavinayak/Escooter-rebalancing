@@ -1,0 +1,721 @@
+{
+  "status": "optimal",
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "p": 1,
+  "n_zones": 77,
+  "n_candidates": 77,
+  "objective_value": 9034598191.7,
+  "objective_value_km": 9034598.192,
+  "total_unweighted_distance_meters": 1201125.5,
+  "total_unweighted_distance_km": 1201.126,
+  "average_assignment_distance_meters": 15599.03,
+  "selected_depots": [
+    {
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "latitude": 41.90145875,
+      "longitude": -87.67556756,
+      "zones_served": 77,
+      "total_weight_served": 1051568.0,
+      "total_distance_served_meters": 1201125.5,
+      "weighted_distance_served": 9034598192.0
+    }
+  ],
+  "assignments": [
+    {
+      "zone_ca": 1,
+      "zone_name": "ROGERS PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 14743.0,
+      "distance_meters": 12341.3,
+      "weighted_distance": 181947561.9
+    },
+    {
+      "zone_ca": 2,
+      "zone_name": "WEST RIDGE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4598.0,
+      "distance_meters": 12997.6,
+      "weighted_distance": 59762800.3
+    },
+    {
+      "zone_ca": 3,
+      "zone_name": "UPTOWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 44266.0,
+      "distance_meters": 8798.8,
+      "weighted_distance": 389489410.7
+    },
+    {
+      "zone_ca": 4,
+      "zone_name": "LINCOLN SQUARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 15328.0,
+      "distance_meters": 8746.6,
+      "weighted_distance": 134068403.3
+    },
+    {
+      "zone_ca": 5,
+      "zone_name": "NORTH CENTER",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 16328.0,
+      "distance_meters": 5944.9,
+      "weighted_distance": 97067682.5
+    },
+    {
+      "zone_ca": 6,
+      "zone_name": "LAKE VIEW",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 160979.0,
+      "distance_meters": 6168.2,
+      "weighted_distance": 992951807.3
+    },
+    {
+      "zone_ca": 7,
+      "zone_name": "LINCOLN PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 132617.0,
+      "distance_meters": 4744.3,
+      "weighted_distance": 629177889.5
+    },
+    {
+      "zone_ca": 8,
+      "zone_name": "NEAR NORTH SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 47005.0,
+      "distance_meters": 3688.6,
+      "weighted_distance": 173382928.4
+    },
+    {
+      "zone_ca": 9,
+      "zone_name": "EDISON PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 64.0,
+      "distance_meters": 23033.9,
+      "weighted_distance": 1474167.9
+    },
+    {
+      "zone_ca": 10,
+      "zone_name": "NORWOOD PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 537.0,
+      "distance_meters": 19562.0,
+      "weighted_distance": 10504775.4
+    },
+    {
+      "zone_ca": 11,
+      "zone_name": "JEFFERSON PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 808.0,
+      "distance_meters": 16241.0,
+      "weighted_distance": 13122734.9
+    },
+    {
+      "zone_ca": 12,
+      "zone_name": "FOREST GLEN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 337.0,
+      "distance_meters": 16198.8,
+      "weighted_distance": 5458994.0
+    },
+    {
+      "zone_ca": 13,
+      "zone_name": "NORTH PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2004.0,
+      "distance_meters": 13038.8,
+      "weighted_distance": 26129812.7
+    },
+    {
+      "zone_ca": 14,
+      "zone_name": "ALBANY PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4566.0,
+      "distance_meters": 11246.7,
+      "weighted_distance": 51352598.1
+    },
+    {
+      "zone_ca": 15,
+      "zone_name": "PORTAGE PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 13758.0,
+      "distance_meters": 12768.8,
+      "weighted_distance": 175673741.9
+    },
+    {
+      "zone_ca": 16,
+      "zone_name": "IRVING PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9388.0,
+      "distance_meters": 10503.2,
+      "weighted_distance": 98604465.1
+    },
+    {
+      "zone_ca": 17,
+      "zone_name": "DUNNING",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 3871.0,
+      "distance_meters": 15123.2,
+      "weighted_distance": 58541916.6
+    },
+    {
+      "zone_ca": 18,
+      "zone_name": "MONTCLARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4269.0,
+      "distance_meters": 13304.4,
+      "weighted_distance": 56796440.7
+    },
+    {
+      "zone_ca": 19,
+      "zone_name": "BELMONT CRAGIN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 18234.0,
+      "distance_meters": 9334.1,
+      "weighted_distance": 170197765.5
+    },
+    {
+      "zone_ca": 20,
+      "zone_name": "HERMOSA",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5491.0,
+      "distance_meters": 7046.6,
+      "weighted_distance": 38693146.1
+    },
+    {
+      "zone_ca": 21,
+      "zone_name": "AVONDALE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 10659.0,
+      "distance_meters": 7113.7,
+      "weighted_distance": 75824944.6
+    },
+    {
+      "zone_ca": 22,
+      "zone_name": "LOGAN SQUARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 50251.0,
+      "distance_meters": 4759.8,
+      "weighted_distance": 239183072.3
+    },
+    {
+      "zone_ca": 23,
+      "zone_name": "HUMBOLDT PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 13978.0,
+      "distance_meters": 4074.4,
+      "weighted_distance": 56951667.9
+    },
+    {
+      "zone_ca": 24,
+      "zone_name": "WEST TOWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 103788.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 25,
+      "zone_name": "AUSTIN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 14461.0,
+      "distance_meters": 7988.2,
+      "weighted_distance": 115516785.9
+    },
+    {
+      "zone_ca": 26,
+      "zone_name": "WEST GARFIELD PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 3289.0,
+      "distance_meters": 6977.6,
+      "weighted_distance": 22949314.3
+    },
+    {
+      "zone_ca": 27,
+      "zone_name": "EAST GARFIELD PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5618.0,
+      "distance_meters": 4656.0,
+      "weighted_distance": 26157186.3
+    },
+    {
+      "zone_ca": 28,
+      "zone_name": "NEAR WEST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 54426.0,
+      "distance_meters": 3929.3,
+      "weighted_distance": 213858371.5
+    },
+    {
+      "zone_ca": 29,
+      "zone_name": "NORTH LAWNDALE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 8265.0,
+      "distance_meters": 9208.7,
+      "weighted_distance": 76109888.9
+    },
+    {
+      "zone_ca": 30,
+      "zone_name": "SOUTH LAWNDALE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9751.0,
+      "distance_meters": 10204.8,
+      "weighted_distance": 99507277.2
+    },
+    {
+      "zone_ca": 31,
+      "zone_name": "LOWER WEST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9095.0,
+      "distance_meters": 5936.2,
+      "weighted_distance": 53990175.3
+    },
+    {
+      "zone_ca": 32,
+      "zone_name": "LOOP",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 370.0,
+      "distance_meters": 6727.7,
+      "weighted_distance": 2489245.0
+    },
+    {
+      "zone_ca": 33,
+      "zone_name": "NEAR SOUTH SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9040.0,
+      "distance_meters": 9302.9,
+      "weighted_distance": 84098483.7
+    },
+    {
+      "zone_ca": 34,
+      "zone_name": "ARMOUR SQUARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4481.0,
+      "distance_meters": 9034.7,
+      "weighted_distance": 40484324.4
+    },
+    {
+      "zone_ca": 35,
+      "zone_name": "DOUGLAS",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4241.0,
+      "distance_meters": 11961.5,
+      "weighted_distance": 50728839.8
+    },
+    {
+      "zone_ca": 36,
+      "zone_name": "OAKLAND",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 1206.0,
+      "distance_meters": 14936.5,
+      "weighted_distance": 18013376.0
+    },
+    {
+      "zone_ca": 37,
+      "zone_name": "FULLER PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 666.0,
+      "distance_meters": 13347.2,
+      "weighted_distance": 8889252.9
+    },
+    {
+      "zone_ca": 38,
+      "zone_name": "GRAND BOULEVARD",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5827.0,
+      "distance_meters": 14616.1,
+      "weighted_distance": 85167936.7
+    },
+    {
+      "zone_ca": 39,
+      "zone_name": "KENWOOD",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 6122.0,
+      "distance_meters": 16649.3,
+      "weighted_distance": 101926824.0
+    },
+    {
+      "zone_ca": 40,
+      "zone_name": "WASHINGTON PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5362.0,
+      "distance_meters": 16645.8,
+      "weighted_distance": 89254670.3
+    },
+    {
+      "zone_ca": 41,
+      "zone_name": "HYDE PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 30961.0,
+      "distance_meters": 18757.8,
+      "weighted_distance": 580758742.1
+    },
+    {
+      "zone_ca": 42,
+      "zone_name": "WOODLAWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5840.0,
+      "distance_meters": 19139.6,
+      "weighted_distance": 111775017.7
+    },
+    {
+      "zone_ca": 43,
+      "zone_name": "SOUTH SHORE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 7760.0,
+      "distance_meters": 23634.6,
+      "weighted_distance": 183404248.0
+    },
+    {
+      "zone_ca": 44,
+      "zone_name": "CHATHAM",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 10671.0,
+      "distance_meters": 23274.0,
+      "weighted_distance": 248356858.6
+    },
+    {
+      "zone_ca": 45,
+      "zone_name": "AVALON PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2673.0,
+      "distance_meters": 24554.4,
+      "weighted_distance": 65633975.8
+    },
+    {
+      "zone_ca": 46,
+      "zone_name": "SOUTH CHICAGO",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 6139.0,
+      "distance_meters": 28166.6,
+      "weighted_distance": 172914545.6
+    },
+    {
+      "zone_ca": 47,
+      "zone_name": "BURNSIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 302.0,
+      "distance_meters": 25768.4,
+      "weighted_distance": 7782041.9
+    },
+    {
+      "zone_ca": 48,
+      "zone_name": "CALUMET HEIGHTS",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2978.0,
+      "distance_meters": 27313.9,
+      "weighted_distance": 81340691.8
+    },
+    {
+      "zone_ca": 49,
+      "zone_name": "ROSELAND",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 10292.0,
+      "distance_meters": 25512.9,
+      "weighted_distance": 262578751.0
+    },
+    {
+      "zone_ca": 50,
+      "zone_name": "PULLMAN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2349.0,
+      "distance_meters": 27643.0,
+      "weighted_distance": 64933314.2
+    },
+    {
+      "zone_ca": 51,
+      "zone_name": "SOUTH DEERING",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2485.0,
+      "distance_meters": 32254.1,
+      "weighted_distance": 80151388.9
+    },
+    {
+      "zone_ca": 52,
+      "zone_name": "EAST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 1699.0,
+      "distance_meters": 33912.1,
+      "weighted_distance": 57616627.7
+    },
+    {
+      "zone_ca": 53,
+      "zone_name": "WEST PULLMAN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4716.0,
+      "distance_meters": 29167.6,
+      "weighted_distance": 137554523.7
+    },
+    {
+      "zone_ca": 54,
+      "zone_name": "RIVERDALE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 771.0,
+      "distance_meters": 32951.5,
+      "weighted_distance": 25405573.5
+    },
+    {
+      "zone_ca": 55,
+      "zone_name": "HEGEWISCH",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 838.0,
+      "distance_meters": 37638.2,
+      "weighted_distance": 31540785.2
+    },
+    {
+      "zone_ca": 56,
+      "zone_name": "GARFIELD RIDGE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 1524.0,
+      "distance_meters": 17784.5,
+      "weighted_distance": 27103615.5
+    },
+    {
+      "zone_ca": 57,
+      "zone_name": "ARCHER HEIGHTS",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4641.0,
+      "distance_meters": 14246.7,
+      "weighted_distance": 66118990.0
+    },
+    {
+      "zone_ca": 58,
+      "zone_name": "BRIGHTON PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9642.0,
+      "distance_meters": 11204.6,
+      "weighted_distance": 108034623.4
+    },
+    {
+      "zone_ca": 59,
+      "zone_name": "MCKINLEY PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 6721.0,
+      "distance_meters": 7984.4,
+      "weighted_distance": 53663304.1
+    },
+    {
+      "zone_ca": 60,
+      "zone_name": "BRIDGEPORT",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 3817.0,
+      "distance_meters": 9483.6,
+      "weighted_distance": 36198813.7
+    },
+    {
+      "zone_ca": 61,
+      "zone_name": "NEW CITY",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9900.0,
+      "distance_meters": 11794.9,
+      "weighted_distance": 116769733.8
+    },
+    {
+      "zone_ca": 62,
+      "zone_name": "WEST ELSDON",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5758.0,
+      "distance_meters": 15795.9,
+      "weighted_distance": 90952722.7
+    },
+    {
+      "zone_ca": 63,
+      "zone_name": "GAGE PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 10610.0,
+      "distance_meters": 13648.9,
+      "weighted_distance": 144814327.3
+    },
+    {
+      "zone_ca": 64,
+      "zone_name": "CLEARING",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 635.0,
+      "distance_meters": 23109.1,
+      "weighted_distance": 14674280.6
+    },
+    {
+      "zone_ca": 65,
+      "zone_name": "WEST LAWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 7156.0,
+      "distance_meters": 18319.9,
+      "weighted_distance": 131097125.1
+    },
+    {
+      "zone_ca": 66,
+      "zone_name": "CHICAGO LAWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 10612.0,
+      "distance_meters": 16072.3,
+      "weighted_distance": 170559717.1
+    },
+    {
+      "zone_ca": 67,
+      "zone_name": "WEST ENGLEWOOD",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 7580.0,
+      "distance_meters": 15298.0,
+      "weighted_distance": 115958891.3
+    },
+    {
+      "zone_ca": 68,
+      "zone_name": "ENGLEWOOD",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 7065.0,
+      "distance_meters": 16248.5,
+      "weighted_distance": 114795756.2
+    },
+    {
+      "zone_ca": 69,
+      "zone_name": "GREATER GRAND CROSSING",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 6415.0,
+      "distance_meters": 19901.7,
+      "weighted_distance": 127669389.6
+    },
+    {
+      "zone_ca": 70,
+      "zone_name": "ASHBURN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2532.0,
+      "distance_meters": 20405.5,
+      "weighted_distance": 51666657.2
+    },
+    {
+      "zone_ca": 71,
+      "zone_name": "AUBURN GRESHAM",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9324.0,
+      "distance_meters": 18844.2,
+      "weighted_distance": 175703435.5
+    },
+    {
+      "zone_ca": 72,
+      "zone_name": "BEVERLY",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2796.0,
+      "distance_meters": 21593.6,
+      "weighted_distance": 60375737.5
+    },
+    {
+      "zone_ca": 73,
+      "zone_name": "WASHINGTON HEIGHTS",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5133.0,
+      "distance_meters": 22746.5,
+      "weighted_distance": 116758001.2
+    },
+    {
+      "zone_ca": 74,
+      "zone_name": "MOUNT GREENWOOD",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2351.0,
+      "distance_meters": 25696.6,
+      "weighted_distance": 60412598.3
+    },
+    {
+      "zone_ca": 75,
+      "zone_name": "MORGAN PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 2504.0,
+      "distance_meters": 23854.0,
+      "weighted_distance": 59730527.7
+    },
+    {
+      "zone_ca": 76,
+      "zone_name": "OHARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 29.0,
+      "distance_meters": 28053.8,
+      "weighted_distance": 813561.6
+    },
+    {
+      "zone_ca": 77,
+      "zone_name": "EDGEWATER",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 24262.0,
+      "distance_meters": 10447.6,
+      "weighted_distance": 253478616.8
+    }
+  ],
+  "distance_method": "manhattan",
+  "solved_at_utc": "2026-10-11T13:56:30+00:00"
+}

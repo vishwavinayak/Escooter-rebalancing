@@ -1,0 +1,761 @@
+{
+  "status": "optimal",
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "p": 5,
+  "n_zones": 77,
+  "n_candidates": 77,
+  "objective_value": 3501234323.2,
+  "objective_value_km": 3501234.323,
+  "total_unweighted_distance_meters": 507354.58,
+  "total_unweighted_distance_km": 507.355,
+  "average_assignment_distance_meters": 6589.02,
+  "selected_depots": [
+    {
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "latitude": 41.77910516,
+      "longitude": -87.6086431,
+      "zones_served": 25,
+      "total_weight_served": 141835.0,
+      "total_distance_served_meters": 185171.5,
+      "weighted_distance_served": 796036956.8
+    },
+    {
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "latitude": 41.92120018,
+      "longitude": -87.73423955,
+      "zones_served": 19,
+      "total_weight_served": 164259.0,
+      "total_distance_served_meters": 135735.8,
+      "weighted_distance_served": 649544542.0
+    },
+    {
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "latitude": 41.79543406,
+      "longitude": -87.69809929,
+      "zones_served": 17,
+      "total_weight_served": 98530.0,
+      "total_distance_served_meters": 105242.0,
+      "weighted_distance_served": 465852588.6
+    },
+    {
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "latitude": 41.9435138,
+      "longitude": -87.65749768,
+      "zones_served": 8,
+      "total_weight_served": 413121.0,
+      "total_distance_served_meters": 37929.9,
+      "weighted_distance_served": 995339521.4
+    },
+    {
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "latitude": 41.90145875,
+      "longitude": -87.67556756,
+      "zones_served": 8,
+      "total_weight_served": 233823.0,
+      "total_distance_served_meters": 43275.4,
+      "weighted_distance_served": 594460714.5
+    }
+  ],
+  "assignments": [
+    {
+      "zone_ca": 1,
+      "zone_name": "ROGERS PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 14743.0,
+      "distance_meters": 8357.2,
+      "weighted_distance": 123210239.4
+    },
+    {
+      "zone_ca": 2,
+      "zone_name": "WEST RIDGE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 4598.0,
+      "distance_meters": 9816.1,
+      "weighted_distance": 45134539.6
+    },
+    {
+      "zone_ca": 3,
+      "zone_name": "UPTOWN",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 44266.0,
+      "distance_meters": 2630.8,
+      "weighted_distance": 116456079.9
+    },
+    {
+      "zone_ca": 4,
+      "zone_name": "LINCOLN SQUARE",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 15328.0,
+      "distance_meters": 5565.8,
+      "weighted_distance": 85312858.9
+    },
+    {
+      "zone_ca": 5,
+      "zone_name": "NORTH CENTER",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 16328.0,
+      "distance_meters": 2764.4,
+      "weighted_distance": 45136401.3
+    },
+    {
+      "zone_ca": 6,
+      "zone_name": "LAKE VIEW",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 160979.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 7,
+      "zone_name": "LINCOLN PARK",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 132617.0,
+      "distance_meters": 3384.2,
+      "weighted_distance": 448797404.5
+    },
+    {
+      "zone_ca": 8,
+      "zone_name": "NEAR NORTH SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 47005.0,
+      "distance_meters": 3688.6,
+      "weighted_distance": 173382928.4
+    },
+    {
+      "zone_ca": 9,
+      "zone_name": "EDISON PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 64.0,
+      "distance_meters": 15989.4,
+      "weighted_distance": 1023322.9
+    },
+    {
+      "zone_ca": 10,
+      "zone_name": "NORWOOD PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 537.0,
+      "distance_meters": 12516.9,
+      "weighted_distance": 6721574.1
+    },
+    {
+      "zone_ca": 11,
+      "zone_name": "JEFFERSON PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 808.0,
+      "distance_meters": 9196.1,
+      "weighted_distance": 7430459.7
+    },
+    {
+      "zone_ca": 12,
+      "zone_name": "FOREST GLEN",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 337.0,
+      "distance_meters": 9154.5,
+      "weighted_distance": 3085070.6
+    },
+    {
+      "zone_ca": 13,
+      "zone_name": "NORTH PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 2004.0,
+      "distance_meters": 8404.7,
+      "weighted_distance": 16843052.0
+    },
+    {
+      "zone_ca": 14,
+      "zone_name": "ALBANY PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 4566.0,
+      "distance_meters": 6118.9,
+      "weighted_distance": 27938965.3
+    },
+    {
+      "zone_ca": 15,
+      "zone_name": "PORTAGE PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 13758.0,
+      "distance_meters": 5723.1,
+      "weighted_distance": 78738058.1
+    },
+    {
+      "zone_ca": 16,
+      "zone_name": "IRVING PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 9388.0,
+      "distance_meters": 3583.1,
+      "weighted_distance": 33638607.4
+    },
+    {
+      "zone_ca": 17,
+      "zone_name": "DUNNING",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 3871.0,
+      "distance_meters": 8076.8,
+      "weighted_distance": 31265286.7
+    },
+    {
+      "zone_ca": 18,
+      "zone_name": "MONTCLARE",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 4269.0,
+      "distance_meters": 6257.2,
+      "weighted_distance": 26712165.0
+    },
+    {
+      "zone_ca": 19,
+      "zone_name": "BELMONT CRAGIN",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 18234.0,
+      "distance_meters": 2287.4,
+      "weighted_distance": 41708639.2
+    },
+    {
+      "zone_ca": 20,
+      "zone_name": "HERMOSA",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 5491.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 21,
+      "zone_name": "AVONDALE",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 10659.0,
+      "distance_meters": 3951.3,
+      "weighted_distance": 42116632.6
+    },
+    {
+      "zone_ca": 22,
+      "zone_name": "LOGAN SQUARE",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 50251.0,
+      "distance_meters": 2665.0,
+      "weighted_distance": 133921005.1
+    },
+    {
+      "zone_ca": 23,
+      "zone_name": "HUMBOLDT PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 13978.0,
+      "distance_meters": 3116.4,
+      "weighted_distance": 43560447.8
+    },
+    {
+      "zone_ca": 24,
+      "zone_name": "WEST TOWN",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 103788.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 25,
+      "zone_name": "AUSTIN",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 14461.0,
+      "distance_meters": 5328.1,
+      "weighted_distance": 77050247.3
+    },
+    {
+      "zone_ca": 26,
+      "zone_name": "WEST GARFIELD PARK",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 3289.0,
+      "distance_meters": 5018.0,
+      "weighted_distance": 16504238.3
+    },
+    {
+      "zone_ca": 27,
+      "zone_name": "EAST GARFIELD PARK",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 5618.0,
+      "distance_meters": 4656.0,
+      "weighted_distance": 26157186.3
+    },
+    {
+      "zone_ca": 28,
+      "zone_name": "NEAR WEST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 54426.0,
+      "distance_meters": 3929.3,
+      "weighted_distance": 213858371.5
+    },
+    {
+      "zone_ca": 29,
+      "zone_name": "NORTH LAWNDALE",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 8265.0,
+      "distance_meters": 7341.5,
+      "weighted_distance": 60677561.1
+    },
+    {
+      "zone_ca": 30,
+      "zone_name": "SOUTH LAWNDALE",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 9751.0,
+      "distance_meters": 6245.7,
+      "weighted_distance": 60901977.8
+    },
+    {
+      "zone_ca": 31,
+      "zone_name": "LOWER WEST SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9095.0,
+      "distance_meters": 5936.2,
+      "weighted_distance": 53990175.3
+    },
+    {
+      "zone_ca": 32,
+      "zone_name": "LOOP",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 370.0,
+      "distance_meters": 6727.7,
+      "weighted_distance": 2489245.0
+    },
+    {
+      "zone_ca": 33,
+      "zone_name": "NEAR SOUTH SIDE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 9040.0,
+      "distance_meters": 9302.9,
+      "weighted_distance": 84098483.7
+    },
+    {
+      "zone_ca": 34,
+      "zone_name": "ARMOUR SQUARE",
+      "depot_ca": 24,
+      "depot_name": "WEST TOWN",
+      "weight": 4481.0,
+      "distance_meters": 9034.7,
+      "weighted_distance": 40484324.4
+    },
+    {
+      "zone_ca": 35,
+      "zone_name": "DOUGLAS",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 4241.0,
+      "distance_meters": 7176.5,
+      "weighted_distance": 30435339.2
+    },
+    {
+      "zone_ca": 36,
+      "zone_name": "OAKLAND",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 1206.0,
+      "distance_meters": 5307.0,
+      "weighted_distance": 6400241.8
+    },
+    {
+      "zone_ca": 37,
+      "zone_name": "FULLER PARK",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 666.0,
+      "distance_meters": 5792.7,
+      "weighted_distance": 3857967.0
+    },
+    {
+      "zone_ca": 38,
+      "zone_name": "GRAND BOULEVARD",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 5827.0,
+      "distance_meters": 4522.7,
+      "weighted_distance": 26353963.0
+    },
+    {
+      "zone_ca": 39,
+      "zone_name": "KENWOOD",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 6122.0,
+      "distance_meters": 4296.6,
+      "weighted_distance": 26303724.3
+    },
+    {
+      "zone_ca": 40,
+      "zone_name": "WASHINGTON PARK",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 5362.0,
+      "distance_meters": 2494.0,
+      "weighted_distance": 13372995.0
+    },
+    {
+      "zone_ca": 41,
+      "zone_name": "HYDE PARK",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 30961.0,
+      "distance_meters": 2984.9,
+      "weighted_distance": 92415672.7
+    },
+    {
+      "zone_ca": 42,
+      "zone_name": "WOODLAWN",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 5840.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 43,
+      "zone_name": "SOUTH SHORE",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 7760.0,
+      "distance_meters": 4496.8,
+      "weighted_distance": 34895359.4
+    },
+    {
+      "zone_ca": 44,
+      "zone_name": "CHATHAM",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 10671.0,
+      "distance_meters": 4667.5,
+      "weighted_distance": 49806360.3
+    },
+    {
+      "zone_ca": 45,
+      "zone_name": "AVALON PARK",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 2673.0,
+      "distance_meters": 5414.9,
+      "weighted_distance": 14474006.8
+    },
+    {
+      "zone_ca": 46,
+      "zone_name": "SOUTH CHICAGO",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 6139.0,
+      "distance_meters": 9029.9,
+      "weighted_distance": 55434470.6
+    },
+    {
+      "zone_ca": 47,
+      "zone_name": "BURNSIDE",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 302.0,
+      "distance_meters": 6627.5,
+      "weighted_distance": 2001510.2
+    },
+    {
+      "zone_ca": 48,
+      "zone_name": "CALUMET HEIGHTS",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 2978.0,
+      "distance_meters": 8174.8,
+      "weighted_distance": 24344593.7
+    },
+    {
+      "zone_ca": 49,
+      "zone_name": "ROSELAND",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 10292.0,
+      "distance_meters": 8150.1,
+      "weighted_distance": 83880407.6
+    },
+    {
+      "zone_ca": 50,
+      "zone_name": "PULLMAN",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 2349.0,
+      "distance_meters": 8501.5,
+      "weighted_distance": 19970133.6
+    },
+    {
+      "zone_ca": 51,
+      "zone_name": "SOUTH DEERING",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 2485.0,
+      "distance_meters": 13113.8,
+      "weighted_distance": 32587804.8
+    },
+    {
+      "zone_ca": 52,
+      "zone_name": "EAST SIDE",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 1699.0,
+      "distance_meters": 14775.1,
+      "weighted_distance": 25102810.8
+    },
+    {
+      "zone_ca": 53,
+      "zone_name": "WEST PULLMAN",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 4716.0,
+      "distance_meters": 13520.5,
+      "weighted_distance": 63762765.8
+    },
+    {
+      "zone_ca": 54,
+      "zone_name": "RIVERDALE",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 771.0,
+      "distance_meters": 13807.0,
+      "weighted_distance": 10645176.6
+    },
+    {
+      "zone_ca": 55,
+      "zone_name": "HEGEWISCH",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 838.0,
+      "distance_meters": 18499.6,
+      "weighted_distance": 15502627.7
+    },
+    {
+      "zone_ca": 56,
+      "zone_name": "GARFIELD RIDGE",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 1524.0,
+      "distance_meters": 4139.0,
+      "weighted_distance": 6307803.0
+    },
+    {
+      "zone_ca": 57,
+      "zone_name": "ARCHER HEIGHTS",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 4641.0,
+      "distance_meters": 4077.6,
+      "weighted_distance": 18923927.0
+    },
+    {
+      "zone_ca": 58,
+      "zone_name": "BRIGHTON PARK",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 9642.0,
+      "distance_meters": 2497.1,
+      "weighted_distance": 24076865.2
+    },
+    {
+      "zone_ca": 59,
+      "zone_name": "MCKINLEY PARK",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 6721.0,
+      "distance_meters": 5792.0,
+      "weighted_distance": 38927941.6
+    },
+    {
+      "zone_ca": 60,
+      "zone_name": "BRIDGEPORT",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 3817.0,
+      "distance_meters": 8753.5,
+      "weighted_distance": 33412218.8
+    },
+    {
+      "zone_ca": 61,
+      "zone_name": "NEW CITY",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 9900.0,
+      "distance_meters": 4829.2,
+      "weighted_distance": 47809325.0
+    },
+    {
+      "zone_ca": 62,
+      "zone_name": "WEST ELSDON",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 5758.0,
+      "distance_meters": 2148.6,
+      "weighted_distance": 12371542.4
+    },
+    {
+      "zone_ca": 63,
+      "zone_name": "GAGE PARK",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 10610.0,
+      "distance_meters": 0.0,
+      "weighted_distance": 0.0
+    },
+    {
+      "zone_ca": 64,
+      "zone_name": "CLEARING",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 635.0,
+      "distance_meters": 9466.4,
+      "weighted_distance": 6011144.8
+    },
+    {
+      "zone_ca": 65,
+      "zone_name": "WEST LAWN",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 7156.0,
+      "distance_meters": 4672.6,
+      "weighted_distance": 33436858.9
+    },
+    {
+      "zone_ca": 66,
+      "zone_name": "CHICAGO LAWN",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 10612.0,
+      "distance_meters": 2816.2,
+      "weighted_distance": 29886015.5
+    },
+    {
+      "zone_ca": 67,
+      "zone_name": "WEST ENGLEWOOD",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 7580.0,
+      "distance_meters": 5382.4,
+      "weighted_distance": 40798877.0
+    },
+    {
+      "zone_ca": 68,
+      "zone_name": "ENGLEWOOD",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 7065.0,
+      "distance_meters": 2893.7,
+      "weighted_distance": 20443717.8
+    },
+    {
+      "zone_ca": 69,
+      "zone_name": "GREATER GRAND CROSSING",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 6415.0,
+      "distance_meters": 2875.6,
+      "weighted_distance": 18446982.1
+    },
+    {
+      "zone_ca": 70,
+      "zone_name": "ASHBURN",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 2532.0,
+      "distance_meters": 6757.0,
+      "weighted_distance": 17108630.3
+    },
+    {
+      "zone_ca": 71,
+      "zone_name": "AUBURN GRESHAM",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 9324.0,
+      "distance_meters": 7862.9,
+      "weighted_distance": 73313750.8
+    },
+    {
+      "zone_ca": 72,
+      "zone_name": "BEVERLY",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 2796.0,
+      "distance_meters": 11678.6,
+      "weighted_distance": 32653362.6
+    },
+    {
+      "zone_ca": 73,
+      "zone_name": "WASHINGTON HEIGHTS",
+      "depot_ca": 42,
+      "depot_name": "WOODLAWN",
+      "weight": 5133.0,
+      "distance_meters": 10186.0,
+      "weighted_distance": 52284575.2
+    },
+    {
+      "zone_ca": 74,
+      "zone_name": "MOUNT GREENWOOD",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 2351.0,
+      "distance_meters": 12047.0,
+      "weighted_distance": 28322399.9
+    },
+    {
+      "zone_ca": 75,
+      "zone_name": "MORGAN PARK",
+      "depot_ca": 63,
+      "depot_name": "GAGE PARK",
+      "weight": 2504.0,
+      "distance_meters": 13939.2,
+      "weighted_distance": 34903698.7
+    },
+    {
+      "zone_ca": 76,
+      "zone_name": "OHARE",
+      "depot_ca": 20,
+      "depot_name": "HERMOSA",
+      "weight": 29.0,
+      "distance_meters": 21007.2,
+      "weighted_distance": 609208.6
+    },
+    {
+      "zone_ca": 77,
+      "zone_name": "EDGEWATER",
+      "depot_ca": 6,
+      "depot_name": "LAKE VIEW",
+      "weight": 24262.0,
+      "distance_meters": 5411.4,
+      "weighted_distance": 131291997.9
+    }
+  ],
+  "distance_method": "manhattan",
+  "solved_at_utc": "2026-10-11T13:56:32+00:00"
+}
