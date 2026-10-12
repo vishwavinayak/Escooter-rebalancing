@@ -68,7 +68,28 @@ uv run escooter-pmedian --p 5
 
 # Phase 5: Scenario & Sensitivity Analysis Suite
 uv run escooter-scenarios --distance-method both
+
+# Phase 6: Interactive Streamlit Dashboard
+uv run streamlit run src/escooter_opt/dashboard/app.py
+# Or via CLI alias:
+uv run escooter-dashboard
 ```
+
+---
+
+## Phase 6: Streamlit Dashboard Interface
+
+Launch the interactive web dashboard with:
+
+```bash
+uv run streamlit run src/escooter_opt/dashboard/app.py
+```
+
+The dashboard includes four dedicated pages:
+1. **Page 1: Data Overview & EDA**: Displays trip counts, date range, geographic coverage, Policy C data-quality audit breakdown, 24-hour volume/speed profiles, day-of-week trends, and zone net-flow imbalance proxies. Supports in-memory cleaning of uploaded CSVs.
+2. **Page 2: Transportation Problem**: Configures distance metrics and demand scaling factors, solves the redistribution LP via HiGHS simplex/interior-point, reports objective values, units transferred, unused supply, unmet demand, route distance distributions, and exports detailed transfer plans as CSV.
+3. **Page 3: Depot Location (P-Median)**: Solves the P-Median facility location IP via HiGHS branch-and-bound for configurable depot counts ($p$), visualizes Chicago Community Areas and selected depot hubs on an interactive map, inspects depot demand loads, and exports zone assignments.
+4. **Page 4: Scenario & Sensitivity Analysis**: Executes parametric sweeps over depot counts ($p \in \{1 \dots 10\}$), distance metrics (Manhattan vs. Haversine), and demand aggregation scale factors ($s \in \{0.25 \dots 1.5\}$). Generates elbow curves, assignment distance bars, and comparative cost tables.
 
 ---
 
@@ -98,7 +119,7 @@ uv run escooter-scenarios --distance-method both
 All unit tests use lightweight synthetic fixtures and mock data:
 
 ```bash
-# Run pytest test suite (166 tests)
+# Run pytest test suite (205 tests)
 uv run pytest
 
 # Run ruff code linter
